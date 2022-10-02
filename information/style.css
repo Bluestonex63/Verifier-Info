@@ -18,14 +18,14 @@
     display:inline-block;
     outline:none;
 }
-.separator:hover {
+.separator:hover:not(.separatoractive) {
     background-color:rgb(206, 205, 205);
     background-image:linear-gradient(to right, rgba(152, 152, 152, 0.7) 100%);
     background-repeat:no-repeat;
     background-size: 200% 100%; 
-    transition:background-size 1s, background-color 1s;
+    transition:background-size 0.3s, background-color 0.3s;
 }
-.separator:active{
+.separatoractive{
     background-color:rgb(176, 176, 176);
     transition:none;
     background-image:none;
