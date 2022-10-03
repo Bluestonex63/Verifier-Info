@@ -15,7 +15,7 @@ app.get('/style.css', function(req, res) {
     res.sendFile("information/style.css", { root: __dirname });
 });
 app.get('/script.js', function(req, res) {
-    res.sendFile("information/sript.js", { root: __dirname });
+    res.sendFile("information/script.js", { root: __dirname });
 });
 app.listen(3000);
 console.log(`App listening at http://localhost:3000`)
