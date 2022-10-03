@@ -1,4 +1,5 @@
 import {opine} from "https://deno.land/x/opine@2.3.3/mod.ts";
+const __dirname = new URL('.', import.meta.url).pathname;
 const app = opine();
 app.use((req, res, next) => {
     res.append('Access-Control-Allow-Origin', ['*']);
