@@ -6,6 +6,11 @@
     height:100%;
     display:flex;
 }
+#separators {
+    border:3px solid blue;
+    border-radius: 5px;
+    padding:1px;
+}
 .separator {
     width: 100%;
     background-color: white;
@@ -31,9 +36,6 @@
     background-image:none;
 }
 #childdiv1 {
-    border:3px solid blue;
-    border-radius: 5px;
-    padding:1px;
     width:19%;
 }
 #separatordiv {
@@ -42,4 +44,10 @@
 #childdiv2 {
     border:1px solid black;
     width:79%;
+    padding:4px;
+}
+.invisible {
+    display:none;
+    width:0px;
+    height:0px;
 }
